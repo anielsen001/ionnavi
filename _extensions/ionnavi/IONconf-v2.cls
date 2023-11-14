@@ -115,7 +115,7 @@
 \RequirePackage{soulutf8}
 \sodef\spac{}{.2em}{0.8em plus1em}{0.6em plus.3em minus 0.3em}
 
-\RequirePackage[backend=biber,natbib=true,style=apa,]{biblatex}
+% \RequirePackage[backend=biber,natbib=true,style=apa,]{biblatex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Options
