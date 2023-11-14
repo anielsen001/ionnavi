@@ -1,0 +1,10 @@
+
+# latex files to ignore
+*.aux
+*.log
+*.toc
+
+# specific files to ignore
+/template.tex
+/apa.csl
+/IONconf-v2.cls
