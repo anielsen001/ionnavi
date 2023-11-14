@@ -20,4 +20,5 @@ contributes:
       format-resources:
         - IONconf-v2.cls
         - apa.csl
+        - figures/ion_logo.eps
 
