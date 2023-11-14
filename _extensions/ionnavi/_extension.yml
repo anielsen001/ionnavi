@@ -13,7 +13,9 @@ contributes:
       include-in-header: header.tex
       documentclass: IONconf-v2
       classoption: [times,letterpaper]
-      #template-partials:
+      template-partials:
+        - partials/title.tex
+        - partials/before-body.tex
       #  - partials/doc-class.tex
       format-resources:
         - IONconf-v2.cls
