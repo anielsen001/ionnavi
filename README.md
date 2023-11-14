@@ -6,8 +6,8 @@ This is a quarto extension for the [Instutitue of Navigation's (ION)](https://ww
 There is also an older version (v1?) that is linked to some conference proceedings, `IONconf.cls`.
 
 Zip files of both original templates can be found in the `_external` directory as
-- `ionconf-v1-latex-template.zip`
-- `ionconf-v2-latex-template.zip`
+- `ionconf-v1-latex-template.zip`, downloaded 2023-11-14
+- `ionconf-v2-latex-template.zip`, downloaded 2023-11-14
 
 ## Creating a New Article
 
