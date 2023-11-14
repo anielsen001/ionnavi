@@ -1,1 +1,27 @@
+$if(title)$
 \title{$title$}
+$endif$
+
+$if(articletype)$
+\articletype{$articletype$}
+$else$
+\articletype{Regular papers}
+$endif$
+
+$if(journalname)$
+\journalname{$journalname$}
+$else$
+\journalname{NAVIGATION}
+$endif$
+
+$if(journalvolume)$
+\journalvolume{$journalvolume$}
+$endif$
+
+$if(journalnumber)$
+\journalvolume{$journalnumber$}
+$endif$
+
+$if(doi)$
+\doi{$doi$}
+$endif$

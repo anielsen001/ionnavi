@@ -5,6 +5,14 @@ format:
     keep-tex: true  
     latex-tinytex: false
     latex-auto-install: false
+    # articletype: Regular papers
+    # received: <date>
+    # revised: <date>
+    # accepted: <date>
+    # journalname: NAVIGATION
+    journalvolume: 5
+    journalnumber: 7
+    # doi: 10.1109/xxx.xx.xxxx
 author:
   - name: Sarah Malloc
     affiliations:
@@ -22,7 +30,7 @@ author:
     affiliations:
       - Another Affiliation
 abstract: |
-  This document is a template demonstrating the ionnavi format.
+  This document is a template.
 keywords: [template, demo]
 # bibliography: sample.bib  
 ---
@@ -30,5 +38,7 @@ keywords: [template, demo]
 ## Introduction {#sec-intro}
 
 *TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
+
+## conclusions
 
 
