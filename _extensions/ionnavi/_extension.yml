@@ -6,8 +6,8 @@ contributes:
   formats:
     common:
       toc: true
-      filters:
-        - ionnavi.lua
+      # filters:
+      #   - ionnavi.lua
     pdf:
       pdf-engine: pdflatex
       include-in-header: header.tex
