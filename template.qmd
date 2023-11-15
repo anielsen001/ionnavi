@@ -42,6 +42,12 @@ keywords: [template, demo]
 
 *TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
 
+# Quarto extension notes
+
+Using a table of contents causes errors, so this is set to false in the `_extension.yml` file.
+```yaml
+toc: false
+```
 # Conclusions
 
 do it.
