@@ -5,6 +5,9 @@ format:
     keep-tex: true  
     latex-tinytex: false
     latex-auto-install: false
+    # toc is not part of the format for NAVIGATION and
+    # using toc causes errors.
+    # toc: false
     # articletype: Regular papers
     # received: <date>
     # revised: <date>
@@ -35,10 +38,10 @@ keywords: [template, demo]
 # bibliography: sample.bib  
 ---
 
-## Introduction {#sec-intro}
+# Introduction {#sec-intro}
 
 *TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
 
-## conclusions
+# Conclusions
 
-
+do it.

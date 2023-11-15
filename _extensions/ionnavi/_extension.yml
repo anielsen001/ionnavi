@@ -13,6 +13,8 @@ contributes:
       include-in-header: header.tex
       documentclass: IONconf-v2
       classoption: [times,letterpaper]
+      # using toc causes errors
+      toc: false
       template-partials:
         - partials/title.tex
         - partials/before-body.tex
