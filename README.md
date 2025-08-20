@@ -1,7 +1,7 @@
 
-# <%= title %>
+# ION Navigation Journal template
 
-This is a quarto extension for the [Instutitue of Navigation's (ION)](https://www.ion.org) journal [Navigation](https://www.ion.org/navi/submit-navi.cfm). It uses version 2 of the IONconf class (`IONconf-v2.cls`), downloaded [here](https://www.ion.org/navi/submit-navi.cfm) on 2023-11-14.
+This is a quarto extension for the [Institute of Navigation's (ION)](https://www.ion.org) journal [Navigation](https://www.ion.org/navi/submit-navi.cfm). It uses version 2 of the IONconf class (`IONconf-v2.cls`), downloaded [here](https://www.ion.org/navi/submit-navi.cfm) on 2023-11-14.
 
 There is also an older version (v1?) that is linked to some conference proceedings, `IONconf.cls`.
 
@@ -13,10 +13,9 @@ Zip files of both original templates can be found in the `_external` directory a
 
 To create a new article using this format:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template anielsen001/ionnavi
 ```
 
 This will create a new directory with an example document that uses this format.
@@ -25,17 +24,16 @@ This will create a new directory with an example document that uses this format.
 
 To add this format to an existing document:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/<%= filesafename %>
+quarto add anielsen001/ionnavi
 ```
 
 Then, add the format to your document options:
 
 ```yaml
 format:
-  <%= filesafename %>-pdf: default
+  ionnavi-pdf: default
 ```    
 
 ## Options
